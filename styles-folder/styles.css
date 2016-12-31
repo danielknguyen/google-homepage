@@ -1,0 +1,76 @@
+.navbar {
+	position:relative;
+	width:100%;
+	height:35px;
+}
+
+.left,.right {
+	list-style:none;
+	display:inline;
+	position:absolute;
+}
+.right {
+	margin-left:600px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.left li  {
+	display:inline;
+	float:left;
+	padding:5px;
+}
+.right li {
+	
+	display:inline;
+	float:right;
+	padding:8px;
+}
+#body {
+	margin-left:20px;
+}
+#body img {
+	margin-top:125px;
+	margin-left:350px;
+	margin-right:100px;
+}
+.resizedTextbox {
+	width:466px;
+	height:30px;
+	margin-left:347px;
+	font-size:18px;
+	background-image:url(../photos-folder/googlemic.png);
+	background-repeat:no-repeat;
+	background-size:29px;
+	background-position:right;
+
+}
+.r_button, .l_button {
+	height:40px;
+	margin-top:15px;
+	font-size:14px;
+}
+.l_button {
+	margin-left:460px;
+}
+.r_button {
+	margin-left:10px;
+}
+#body p {
+	margin-left:450px;
+}
+a:link {
+	text-decoration:none;
+	color:#4D4B4B;
+}
+a:visited {
+	text-decoration:none;
+	color:#4D4B4B;
+}
+a:hover {
+	text-decoration:underline;
+	color:#4D4B4B;
+}
