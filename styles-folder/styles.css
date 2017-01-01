@@ -1,16 +1,19 @@
 .navbar {
 	position:relative;
 	width:100%;
-	height:35px;
+	top:0;
+	display:fixed;
 }
-
-.left,.right {
+.navbar ul {
 	list-style:none;
-	display:inline;
-	position:absolute;
+	margin:0;
+	padding:0;
 }
-.right {
-	margin-left:600px;
+.navbar ul li {
+	display:inline;
+	font-size:16px;
+	padding:10px;
+	overflow:hidden;
 }
 .left {
 	float:left;
@@ -18,27 +21,21 @@
 .right {
 	float:right;
 }
-.left li  {
-	display:inline;
-	float:left;
-	padding:5px;
-}
-.right li {
-	
-	display:inline;
-	float:right;
-	padding:8px;
+.s_in {
+	background-color:#5490F2;
+	color:#FFFFFF;
+	border-radius:5px;
 }
 #body {
 	margin-left:20px;
 }
 #body img {
-	margin-top:125px;
+	margin-top:80px;
 	margin-left:350px;
 	margin-right:100px;
 }
 .resizedTextbox {
-	width:466px;
+	width:496px;
 	height:30px;
 	margin-left:347px;
 	font-size:18px;
@@ -46,21 +43,45 @@
 	background-repeat:no-repeat;
 	background-size:29px;
 	background-position:right;
-
 }
 .r_button, .l_button {
 	height:40px;
-	margin-top:15px;
+	margin-top:25px;
 	font-size:14px;
 }
 .l_button {
-	margin-left:460px;
+	margin-left:480px;
 }
 .r_button {
 	margin-left:10px;
 }
 #body p {
-	margin-left:450px;
+	margin-left:465px;
+}
+#bot_nav {
+	width:100%;
+	background-color:#BDBEC1;
+	position:fixed;
+	height:35px;
+	bottom:1px;
+}
+#bot_nav ul {
+	list-style:none;
+	margin-left:-25px;
+}
+#bot_nav div ul {
+	margin-right:15px;
+}
+.bot_nav,.bot_nav2 {
+	padding:10px;
+	font-size:18px;
+	margin-top:-15px;
+}
+.bot_nav {
+	float:left;
+}
+.bot_nav2 {
+	float:right;
 }
 a:link {
 	text-decoration:none;
